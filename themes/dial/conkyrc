@@ -1,0 +1,58 @@
+own_window yes
+own_window_argb_visual yes
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# ARGB can be used for real transparency, note that a composite manager is required for real transparency
+own_window_argb_visual true
+
+# Set the transparency alpha value from 0 to 255
+own_window_argb_value 0
+
+update_interval 1					# this is used if system is not running on battery battery
+update_interval_on_battery 1			# this is used if system is running on battery battery, higher value ensures that conky save battery power
+
+double_buffer yes
+no_buffers yes
+text_buffer_size 2048
+gap_x 1220
+gap_y 100
+minimum_size 600 400
+maximum_width 1920
+
+border_inner_margin 0
+border_outer_margin 0
+use_spacer none
+alignment tl
+
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+override_utf8_locale yes
+use_xft yes
+xftfont ubuntu light:size=11
+xftalpha 0.5    
+uppercase yes
+
+lua_load ./scripts/equilizer.lua
+lua_draw_hook_pre main_bars
+
+TEXT
+
+
+
+
+${color 56696F}
+#${goto 0}cpu 
+${voffset -90}${goto 400}cpu 
+${voffset 20}${goto 470}ram
+${voffset 63}${goto 520}swap
+${voffset 120}${goto 520}root
+${voffset 69}${goto 470}home
+${voffset 18}${goto 380}upload
+${voffset -52}${goto 90}download
+${voffset -92}${goto 40}wifi
+${voffset -175}${goto 25}battery
+${voffset -88}${goto 90}temp
