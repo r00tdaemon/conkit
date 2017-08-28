@@ -17,5 +17,8 @@ cd conkit
 
 ## Themes
 
-* [ `equlizer`]()
-* [`dial`]()
+* [ `equalizer`](https://github.com/ujjwal96/conkit/blob/master/themes/equalizer/Screenshot.png)
+* [`dial`](https://github.com/ujjwal96/conkit/blob/master/themes/dial/Screenshot.png)
+
+### Credits
+Thanks to [kralis-dm](https://kralis-dm.deviantart.com/art/Debian-Xfce-Conky-555754655) for original scripts.
