@@ -6,8 +6,8 @@ It also configures conky to autostart with specified theme. Themes need to be pr
 ## Installation
 
 ```
-git clone https://github.com/ujjwal96/conkit.git 
-cd conkit
+git clone https://github.com/ujjwal96/conkit.git "${HOME}/.conkit"
+cd ~/.conkit
 ./init.sh
 ```
 
