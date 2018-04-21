@@ -23,5 +23,12 @@ cd ~/.conkit
 * `dial`
   ![`dial`](https://github.com/ujjwal96/conkit/blob/master/themes/dial/Screenshot.png)
 
+## Uninstallation
+
+```
+rm -rf ~/.conkit
+rm -f ~/.config/autostart/conkit.desktop
+```
+
 ### Credits
 Thanks to [kralis-dm](https://kralis-dm.deviantart.com/art/Debian-Xfce-Conky-555754655) for original scripts.
